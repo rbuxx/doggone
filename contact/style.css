@@ -1,0 +1,96 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: #FFF;
+}
+
+.jumbotron {
+  background: url("/images/dogs-playing.jpg") no-repeat center center;
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.jumbotron h1, p {
+  color: white;
+  opacity: 0.75;
+}
+
+
+.flex-container {
+  display: flex;
+  background-color: #FFF;
+  flex-wrap: wrap;
+  margin-top: -16px;
+  box-sizing: border-box;
+
+}
+
+.box {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.content h3 {
+  margin-bottom: 30px;
+}
+
+.content h1 {
+  text-align: center;
+}
+
+.content p {
+  color: #333;
+}
+
+.box a {
+  margin-bottom: 15px;
+}
+
+.button {
+  background-color: #FF5270;
+  border: none;
+  padding: 10px 50px;
+  color: #333;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.button:hover {
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24),0 10px 15px 0 rgba(0,0,0,0.19);
+  text-decoration: none;
+  color: #FF5270;
+}
+
+.locations {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 30px 10px;
+  margin-top: 50px;
+}
+
+.locations p {
+  color: white;
+}
+
+.locations h6 {
+  margin-top: 40px;
+}
+
+
+.footer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.footer h5 {
+  text-align: center;
+}
